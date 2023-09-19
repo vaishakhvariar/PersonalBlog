@@ -1,0 +1,39 @@
+/* Global 
+----------------------------------------------- */
+h1{
+    margin: 0;
+    font-size: 100%;
+    font-family: "Futura", sans-serif;
+}
+/* Nav Bar
+----------------------------------------------- */
+header {
+    background-color: white;
+    color: #333;
+    padding: 0 0.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav ul {
+    list-style: none; /* Remove default list bullets */
+    text-align: center; /* Center-align the list items */
+    padding: 0;
+}
+nav ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add spacing between list items */
+}
+nav a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #333; /* Text color for links */
+    font-weight: bold; /* Make links bold */
+    font-size: 100%;
+}
+.vertical-heading {
+    display: flex; /* Create a vertical layout for heading elements */
+    flex-direction: column; /* Stack elements vertically */
+    margin-right: 20px; /* Add spacing between heading and nav */
+
+}
